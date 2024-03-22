@@ -1,25 +1,13 @@
-function Header(){
+// Header.jsx
 
-    return(
-    <header>
-        <h1 class="title">Leogie Antonio </h1>
-        <nav class="nav-bar">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contacts</a></li>
-            </ul>
-        </nav>
-    
-    
-    
-    
-        
-        <hr></hr>
+import React from 'react';
+
+const Header = () => {
+  return (
+    <header className="header">
+      <h1 className="header-title">Pokedex</h1>
     </header>
-    
-    );
-    
-    }
-     export default Header
+  );
+};
+
+export default Header;

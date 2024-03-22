@@ -1,0 +1,171 @@
+.pokemon-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pokemon-info p {
+  margin: 5px 0;
+}
+
+.language-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.language-buttons button {
+  border: none;
+  background-color: #000000;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.language-buttons button:hover {
+  background-color: #0c22ee;
+}
+
+/* Hover effect */
+.pokemon-card {
+  /* Other styles */
+  transition: transform 0.3s ease;
+}
+
+.pokemon-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1);
+}
+@keyframes backgroundAnimation {
+  0% { background-color: #07eaf1; }
+  50% { background-color: #f116df; }
+  100% { background-color: #05ffc9; }
+}
+
+.pokemon-card {
+  /* Other styles */
+  animation: backgroundAnimation 2s infinite alternate;
+}
+
+.pokemon-card {
+  /* Other styles */
+  background-image: url('https://e1.pxfuel.com/desktop-wallpaper/431/433/desktop-wallpaper-pokemon-minimalistic-dark-poke-balls-1920x1080-high-pokemon-dark-minimalist.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pokemon-card {
+  /* Other styles */
+  overflow: hidden; /* Ensure that the overflow is hidden to prevent the image from overflowing */
+}
+
+.pokemon-card img {
+  /* Other styles */
+  transition: transform 1.0s ease; /* Add a smooth transition effect */
+}
+
+.pokemon-card:hover img {
+  transform: scale(1.1); /* Zoom in the image on hover */
+}
+/* styles.css */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3f4f6;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+.header {
+  text-align: center;
+  background-color: #f3f4f6;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a box shadow for a nice effect */
+}
+.header-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin: 0; /* Remove default margin */
+}
+.header {
+  text-align: center; /* Center the text horizontally */
+}
+
+.header-title {
+  margin: 0;
+}
+/* styles.css */
+
+.language-buttons {
+  display: flex;
+  justify-content: center; /* Center the buttons horizontally */
+}
+
+.language-button {
+  margin: 0 10px; /* Add some space between buttons */
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.language-button:hover {
+  background-color: #45a049; /* Darker Green */
+}
+
+/* styles.css */
+
+.pokemon-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 200px;
+  margin: 20px;
+  text-align: center;
+}
+
+.pokemon-image {
+  width: 120px;
+  height: 120px;
+}
+
+.pokemon-info {
+  color: white; /* Set text color to white */
+}
+
+.pokemon-id {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.pokemon-name {
+  font-size: 24px;
+  margin: 5px 0;
+}
+
+.pokemon-type {
+  font-size: 14px;
+  font-style: italic;
+}
+
+.pokemon-stats {
+  margin-top: 10px;
+}
+
